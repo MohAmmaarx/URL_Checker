@@ -34,3 +34,21 @@ h1 {
 .i1 {
     height: 120px;
 }
+
+@media screen and (max-width: 600px) {
+
+    .box {
+        width: 95%;
+        margin: 40px auto;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
