@@ -35,20 +35,26 @@ h1 {
     height: 120px;
 }
 
-@media screen and (max-width: 600px) {
+/* 📱 Mobile responsiveness */
 
-    .box {
-        width: 95%;
-        margin: 40px auto;
+/* Small phones */
+
+@media (max-width: 480px) {
+    .box1 {
         padding: 15px;
     }
+}
 
-    input {
-        width: 100%;
-        font-size: 15px;
+/* Medium phones */
+@media (max-width: 768px) {
+    .box1 {
+        max-width: 90%;
     }
+}
 
-    button {
-        width: 100%;
+/* Tablets */
+@media (max-width: 1024px) {
+    .box1 {
+        max-width: 500px;
     }
 }
